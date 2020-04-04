@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="cellPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="340.0" style="-fx-background-color: #242424;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="cellTaskIconView" fitHeight="40.0" fitWidth="40.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="25.0">
+         <image>
+            <Image url="@../Assets/taskIcon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="cellTaskTitle" layoutX="85.0" layoutY="16.0" prefWidth="250.0" text="Label" textFill="WHITE" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="cellTaskDesc" layoutX="105.0" layoutY="15.0" prefHeight="40.0" prefWidth="250.0" text="Label" textFill="WHITE" wrapText="true" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="25.0" />
+      <Label fx:id="cellTaskDate" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="243.0" layoutY="78.0" prefWidth="150.0" text="Date Created" textFill="#3196f3" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="65.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="cellDelete" fitHeight="20.0" fitWidth="20.0" layoutX="220.0" layoutY="-61.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../Assets/cellDeleteIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cellUpdate" fitHeight="20.0" fitWidth="20.0" layoutX="325.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../Assets/updateTaskIcon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

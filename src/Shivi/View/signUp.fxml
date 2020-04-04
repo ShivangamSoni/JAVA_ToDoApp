@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="signUpPane" prefHeight="320.0" prefWidth="700.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Shivi.Controller.SignUpController">
+   <children>
+      <JFXTextField id="loginUsername" fx:id="firstName" focusColor="#8e24aa" labelFloat="true" layoutX="102.0" layoutY="88.0" prefWidth="200.0" promptText="First Name" unFocusColor="#00227b" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField id="loginUsername" fx:id="lastName" focusColor="#8e24aa" labelFloat="true" prefWidth="200.0" promptText="Last Name" unFocusColor="#00227b" AnchorPane.rightAnchor="145.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField id="loginUsername" fx:id="username" focusColor="#8e24aa" labelFloat="true" layoutX="112.0" layoutY="98.0" prefWidth="410.0" promptText="Username" unFocusColor="#00227b" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField id="loginPassword" fx:id="loginPassword" focusColor="#8e24aa" labelFloat="true" prefWidth="410.0" promptText="Password" unFocusColor="#00227b" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="145.0" AnchorPane.topAnchor="135.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXCheckBox fx:id="signupCheckBoxMale" layoutX="158.0" layoutY="163.0" prefHeight="20.0" selected="true" text="Male" unCheckedColor="#00227b" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="180.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXCheckBox fx:id="signupCheckBoxFemale" layoutX="350.0" layoutY="163.0" prefHeight="20.0" text="Female" unCheckedColor="#00227b" AnchorPane.rightAnchor="270.0" AnchorPane.topAnchor="180.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXTextField id="loginUsername" fx:id="userLocation" focusColor="#8e24aa" labelFloat="true" layoutX="122.0" layoutY="108.0" prefWidth="410.0" promptText="Location" unFocusColor="#00227b" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="145.0" AnchorPane.topAnchor="210.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton id="loginBtn" fx:id="signupBtn" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="334.0" layoutY="238.0" prefHeight="35.0" prefWidth="350.0" ripplerFill="#00227b" style="-fx-background-color: #8e24aa;" text="Sign-Up" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="175.0" AnchorPane.topAnchor="265.0">
+         <font>
+            <Font name="Arial Narrow" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="signUpBtn" fx:id="loginBtn" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="596.0" layoutY="32.0" prefWidth="100.0" ripplerFill="#8e24aa" style="-fx-background-color: #00227b;" text="Login" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

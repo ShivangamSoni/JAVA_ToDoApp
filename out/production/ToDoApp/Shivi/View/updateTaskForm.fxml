@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="updateItemFormPane" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Shivi.Controller.UpdateTaskFormController">
+   <children>
+      <JFXTextField id="loginUsername" fx:id="taskTitle" focusColor="#8e24aa" labelFloat="true" layoutX="112.0" layoutY="98.0" prefHeight="40.0" prefWidth="300.0" promptText="Task Title" unFocusColor="#00227b" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField id="loginUsername" fx:id="taskDescription" focusColor="#8e24aa" labelFloat="true" layoutX="155.0" layoutY="60.0" prefHeight="40.0" prefWidth="300.0" promptText="Description" unFocusColor="#00227b" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton id="loginBtn" fx:id="updateTaskBtn" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="334.0" layoutY="238.0" prefHeight="40.0" prefWidth="150.0" ripplerFill="#00227b" style="-fx-background-color: #8e24aa;" text="Update Task" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="225.0">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
